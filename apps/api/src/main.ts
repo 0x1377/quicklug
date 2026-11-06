@@ -18,7 +18,7 @@ async function bootstrap() {
     }),
   );
 
-  //standardize error resposes
+  //standardize error responses
   app.useGlobalFilters(new HttpExceptionFilter());
 
   //Configure swagger docs
